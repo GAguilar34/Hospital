@@ -52,5 +52,4 @@ public class PatientDTO {
     public String getTelefono() {return telefono;}
     public String getDireccion() {return direccion;}
     public LocalDateTime getFechaRegistro() {return fechaRegistro;}
-
 }

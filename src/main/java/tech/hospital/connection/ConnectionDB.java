@@ -40,7 +40,7 @@ public class ConnectionDB {
         return database.getCollection(nameCollection);
     }
 
-    //Cerramos la coleccion de nuestra base de datos
+    //Cerramos la conexion de nuestra base de datos
     public void connectionClose(){
         if(mongoClient != null){
             mongoClient.close();
